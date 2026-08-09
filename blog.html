@@ -1,368 +1,367 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 셔츠룸 | AI 트렌드가 만든 새로운 럭셔리 경험 - 블로그</title>
-    <meta name="description" content="마포 셔츠룸의 진화: AI 트렌드가 재정의한 프리미엄 공간. 전통적 틀을 깨는 과감한 시도, 당신의 기준을 흔든다. 지금 경험하라.">
-    <meta name="keywords" content="마포 셔츠룸, 마포 셔츠룸 추천, 마포 AI 트렌드, 마포 럭셔리 셔츠룸, 마포 셔츠룸 가격, 마포 셔츠룸 후기">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-noir-gold">
-    <link rel="canonical" href="https://sf-t3-1779642675702-262.maphoshirts.xyz/blog.html">
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="마포 셔츠룸 | AI 트렌드가 만든 새로운 럭셔리 경험">
-    <meta property="og:description" content="전통적 틀을 깨는 AI 기반 마포 셔츠룸의 진화. 당신의 기준을 흔든다.">
-    <meta property="og:image" content="https://sf-t3-1779642675702-262.vercel.app/og-image.jpg">
-    <meta property="og:url" content="https://sf-t3-1779642675702-262.maphoshirts.xyz/blog.html">
-    <style>
-        /* Reset & Base */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
-            background-color: #0a0a0a;
-            color: #f5f5f5;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        /* Layout */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        /* Header & Navigation */
-        header {
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            backdrop-filter: blur(10px);
-        }
-        .header-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .site-title {
-            font-size: 1.5rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: #d4af37;
-        }
-        .site-title span {
-            color: #f5f5f5;
-            font-weight: 300;
-        }
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 30px;
-        }
-        nav a {
-            color: #f5f5f5;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            letter-spacing: 1px;
-            transition: color 0.3s ease;
-            position: relative;
-        }
-        nav a:hover {
-            color: #d4af37;
-        }
-        nav a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: #d4af37;
-            transition: width 0.3s ease;
-        }
-        nav a:hover::after {
-            width: 100%;
-        }
-        /* Hamburger */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-            padding: 5px;
-        }
-        .hamburger span {
-            display: block;
-            width: 25px;
-            height: 2px;
-            background: #d4af37;
-            transition: all 0.3s ease;
-        }
-        /* Mobile */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-            nav ul {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgba(10, 10, 10, 0.98);
-                padding: 20px;
-                gap: 20px;
-                border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-            }
-            nav ul.active {
-                display: flex;
-            }
-            nav a {
-                font-size: 1.1rem;
-            }
-        }
-        /* Blog Post Styles */
-        .blog-post {
-            padding: 80px 0;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .blog-post .post-meta {
-            font-size: 0.85rem;
-            color: #888;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-            border-left: 3px solid #d4af37;
-            padding-left: 15px;
-        }
-        .blog-post h1 {
-            font-size: 2.8rem;
-            font-weight: 800;
-            line-height: 1.2;
-            color: #d4af37;
-            margin-bottom: 30px;
-            letter-spacing: -1px;
-        }
-        .blog-post h2 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: #f5f5f5;
-            margin-top: 50px;
-            margin-bottom: 20px;
-            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-            padding-bottom: 10px;
-        }
-        .blog-post h3 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #d4af37;
-            margin-top: 30px;
-            margin-bottom: 15px;
-        }
-        .blog-post p {
-            font-size: 1.1rem;
-            color: #ccc;
-            margin-bottom: 20px;
-            line-height: 1.8;
-        }
-        .blog-post .highlight-box {
-            background: rgba(212, 175, 55, 0.05);
-            border-left: 4px solid #d4af37;
-            padding: 25px 30px;
-            margin: 30px 0;
-            border-radius: 0 8px 8px 0;
-        }
-        .blog-post .highlight-box p {
-            margin-bottom: 0;
-            font-style: italic;
-            color: #f5f5f5;
-        }
-        .blog-post ul {
-            margin: 20px 0;
-            padding-left: 25px;
-            list-style: none;
-        }
-        .blog-post ul li {
-            position: relative;
-            padding-left: 25px;
-            margin-bottom: 15px;
-            color: #ccc;
-            font-size: 1.05rem;
-        }
-        .blog-post ul li::before {
-            content: '◆';
-            position: absolute;
-            left: 0;
-            color: #d4af37;
-            font-size: 0.8rem;
-        }
-        .blog-post .cta-section {
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(10, 10, 10, 0.9));
-            border: 1px solid rgba(212, 175, 55, 0.3);
-            padding: 40px;
-            margin-top: 60px;
-            border-radius: 12px;
-            text-align: center;
-        }
-        .blog-post .cta-section p {
-            font-size: 1.2rem;
-            color: #f5f5f5;
-            margin-bottom: 20px;
-        }
-        .blog-post .cta-button {
-            display: inline-block;
-            padding: 15px 40px;
-            background: #d4af37;
-            color: #0a0a0a;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 1rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            border-radius: 50px;
-            transition: all 0.3s ease;
-        }
-        .blog-post .cta-button:hover {
-            background: #f5f5f5;
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
-        }
-        .blog-post .author-note {
-            margin-top: 40px;
-            padding-top: 30px;
-            border-top: 1px solid rgba(212, 175, 55, 0.2);
-            font-size: 0.9rem;
-            color: #666;
-            text-align: center;
-        }
-        @media (max-width: 768px) {
-            .blog-post {
-                padding: 40px 15px;
-            }
-            .blog-post h1 {
-                font-size: 2rem;
-            }
-            .blog-post h2 {
-                font-size: 1.4rem;
-            }
-            .blog-post p {
-                font-size: 1rem;
-            }
-        }
-        /* Footer */
-        footer {
-            background: #0a0a0a;
-            border-top: 1px solid rgba(212, 175, 55, 0.1);
-            padding: 30px 0;
-            text-align: center;
-            color: #666;
-            font-size: 0.85rem;
-            letter-spacing: 1px;
-        }
-        .tel-link {
-            color: #d4af37;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        .tel-link:hover {
-            text-decoration: underline;
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>마포 셔츠룸 | AI 트렌드가 만든 새로운 럭셔리 경험 - 블로그</title>
+ <meta name="description" content="마포 셔츠룸의 진화: AI 트렌드가 재정의한 프리미엄 공간. 전통적 틀을 깨는 과감한 시도, 당신의 기준을 흔든다. 지금 경험하라.">
+ <meta name="keywords" content="마포 셔츠룸, 마포 셔츠룸 추천, 마포 AI 트렌드, 마포 럭셔리 셔츠룸, 마포 셔츠룸 가격, 마포 셔츠룸 후기">
+ <link rel="canonical" href="https://sf-t3-1779642675702-262.maphoshirts.xyz/blog.html">
+ <!-- Open Graph -->
+ <meta property="og:type" content="website">
+ <meta property="og:title" content="마포 셔츠룸 | AI 트렌드가 만든 새로운 럭셔리 경험 - 블로그">
+ <meta property="og:description" content="마포 셔츠룸의 진화: AI 트렌드가 재정의한 프리미엄 공간. 전통적 틀을 깨는 과감한 시도, 당신의 기준을 흔든다. 지금 경험하라.">
+ <meta property="og:image" content="https://sf-t3-1779642675702-262.vercel.app/og-image.jpg">
+ <meta property="og:url" content="https://sf-t3-1779642675702-262.maphoshirts.xyz/blog.html">
+ <style>
+ /* Reset & Base */
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+ background-color: #0a0a0a;
+ color: #f5f5f5;
+ line-height: 1.6;
+ overflow-x: hidden;
+ }
+ /* Layout */
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 20px;
+ }
+ /* Header & Navigation */
+ header {
+ background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+ border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ backdrop-filter: blur(10px);
+ }
+ .header-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 20px;
+ max-width: 1200px;
+ margin: 0 auto;
+ }
+ .site-title {
+ font-size: 1.5rem;
+ font-weight: 700;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ color: #d4af37;
+ }
+ .site-title span {
+ color: #f5f5f5;
+ font-weight: 300;
+ }
+ nav ul {
+ display: flex;
+ list-style: none;
+ gap: 30px;
+ }
+ nav a {
+ color: #f5f5f5;
+ text-decoration: none;
+ font-size: 0.9rem;
+ font-weight: 500;
+ letter-spacing: 1px;
+ transition: color 0.3s ease;
+ position: relative;
+ }
+ nav a:hover {
+ color: #d4af37;
+ }
+ nav a::after {
+ content: '';
+ position: absolute;
+ bottom: -5px;
+ left: 0;
+ width: 0;
+ height: 2px;
+ background: #d4af37;
+ transition: width 0.3s ease;
+ }
+ nav a:hover::after {
+ width: 100%;
+ }
+ /* Hamburger */
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 5px;
+ padding: 5px;
+ }
+ .hamburger span {
+ display: block;
+ width: 25px;
+ height: 2px;
+ background: #d4af37;
+ transition: all 0.3s ease;
+ }
+ /* Mobile */
+ @media (max-width: 768px) {
+ .hamburger {
+ display: flex;
+ }
+ nav ul {
+ display: none;
+ flex-direction: column;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ right: 0;
+ background: rgba(10, 10, 10, 0.98);
+ padding: 20px;
+ gap: 20px;
+ border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+ }
+ nav ul.active {
+ display: flex;
+ }
+ nav a {
+ font-size: 1.1rem;
+ }
+ }
+ /* Blog Post Styles */
+ .blog-post {
+ padding: 80px 0;
+ max-width: 800px;
+ margin: 0 auto;
+ }
+ .blog-post .post-meta {
+ font-size: 0.85rem;
+ color: #888;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ border-left: 3px solid #d4af37;
+ padding-left: 15px;
+ }
+ .blog-post h1 {
+ font-size: 2.8rem;
+ font-weight: 800;
+ line-height: 1.2;
+ color: #d4af37;
+ margin-bottom: 30px;
+ letter-spacing: -1px;
+ }
+ .blog-post h2 {
+ font-size: 1.8rem;
+ font-weight: 700;
+ color: #f5f5f5;
+ margin-top: 50px;
+ margin-bottom: 20px;
+ border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+ padding-bottom: 10px;
+ }
+ .blog-post h3 {
+ font-size: 1.3rem;
+ font-weight: 600;
+ color: #d4af37;
+ margin-top: 30px;
+ margin-bottom: 15px;
+ }
+ .blog-post p {
+ font-size: 1.1rem;
+ color: #ccc;
+ margin-bottom: 20px;
+ line-height: 1.8;
+ }
+ .blog-post .highlight-box {
+ background: rgba(212, 175, 55, 0.05);
+ border-left: 4px solid #d4af37;
+ padding: 25px 30px;
+ margin: 30px 0;
+ border-radius: 0 8px 8px 0;
+ }
+ .blog-post .highlight-box p {
+ margin-bottom: 0;
+ font-style: italic;
+ color: #f5f5f5;
+ }
+ .blog-post ul {
+ margin: 20px 0;
+ padding-left: 25px;
+ list-style: none;
+ }
+ .blog-post ul li {
+ position: relative;
+ padding-left: 25px;
+ margin-bottom: 15px;
+ color: #ccc;
+ font-size: 1.05rem;
+ }
+ .blog-post ul li::before {
+ content: '◆';
+ position: absolute;
+ left: 0;
+ color: #d4af37;
+ font-size: 0.8rem;
+ }
+ .blog-post .cta-section {
+ background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(10, 10, 10, 0.9));
+ border: 1px solid rgba(212, 175, 55, 0.3);
+ padding: 40px;
+ margin-top: 60px;
+ border-radius: 12px;
+ text-align: center;
+ }
+ .blog-post .cta-section p {
+ font-size: 1.2rem;
+ color: #f5f5f5;
+ margin-bottom: 20px;
+ }
+ .blog-post .cta-button {
+ display: inline-block;
+ padding: 15px 40px;
+ background: #d4af37;
+ color: #0a0a0a;
+ text-decoration: none;
+ font-weight: 700;
+ font-size: 1rem;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ border-radius: 50px;
+ transition: all 0.3s ease;
+ }
+ .blog-post .cta-button:hover {
+ background: #f5f5f5;
+ transform: translateY(-2px);
+ box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
+ }
+ .blog-post .author-note {
+ margin-top: 40px;
+ padding-top: 30px;
+ border-top: 1px solid rgba(212, 175, 55, 0.2);
+ font-size: 0.9rem;
+ color: #666;
+ text-align: center;
+ }
+ @media (max-width: 768px) {
+ .blog-post {
+ padding: 40px 15px;
+ }
+ .blog-post h1 {
+ font-size: 2rem;
+ }
+ .blog-post h2 {
+ font-size: 1.4rem;
+ }
+ .blog-post p {
+ font-size: 1rem;
+ }
+ }
+ /* Footer */
+ footer {
+ background: #0a0a0a;
+ border-top: 1px solid rgba(212, 175, 55, 0.1);
+ padding: 30px 0;
+ text-align: center;
+ color: #666;
+ font-size: 0.85rem;
+ letter-spacing: 1px;
+ }
+ .tel-link {
+ color: #d4af37;
+ text-decoration: none;
+ font-weight: 600;
+ }
+ .tel-link:hover {
+ text-decoration: underline;
+ }
+ </style>
+  <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="header-inner">
-            <div class="site-title">마포 <span>셔츠룸</span></div>
-            <nav>
-                <div class="hamburger" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <ul id="nav-menu">
-                    <li><a href="/">홈</a></li>
-                    <li><a href="/about">소개</a></li>
-                    <li><a href="/blog">블로그</a></li>
-                    <li><a href="/contact">문의</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="header-inner">
+ <div class="site-title">마포 <span>셔츠룸</span></div>
+ <nav>
+ <div class="hamburger" onclick="toggleMenu()">
+ <span></span>
+ <span></span>
+ <span></span>
+ </div>
+ <ul id="nav-menu">
+ <li><a href="/">홈</a></li>
+ <li><a href="/about">소개</a></li>
+ <li><a href="/blog">블로그</a></li>
+ <li><a href="/contact">문의</a></li>
+ </ul>
+ </nav>
+ </div>
+ </header>
 
 <main>
 <article class="blog-post container">
-  <header class="header-inner">
-    <p class="post-meta">이용 가이드 · 마포 셔츠룸</p>
-    <h1 class="site-title">마포 셔츠룸, 예약 전 확인하면 좋은 것들</h1>
-  </header>
-  <p>마포 지역의 셔츠룸을 이용할 계획이라면, 예약 전 몇 가지를 미리 점검해두는 것이 도움이 됩니다. 매장마다 운영 방식에 차이가 있는 만큼, 아래 내용을 참고용으로 정리했습니다.</p>
+ <header class="header-inner">
+ <p class="post-meta">이용 가이드 · 마포 셔츠룸</p>
+ <h1 class="site-title">마포 셔츠룸, 예약 전 확인하면 좋은 것들</h1>
+ </header>
+ <p>마포 지역의 셔츠룸을 이용할 계획이라면, 예약 전 몇 가지를 미리 점검해두는 것이 도움이 됩니다. 매장마다 운영 방식에 차이가 있는 만큼, 아래 내용을 참고용으로 정리했습니다.</p>
 
-  <section>
-    <h2>예약 전 체크리스트</h2>
-    <ul>
-      <li>희망 방문 날짜와 시간대가 매장 운영 시간과 맞는지 확인</li>
-      <li>동반 인원 수를 정확히 전달했는지 확인</li>
-      <li>결제 수단(카드·현금) 가능 여부 사전 확인</li>
-      <li>주차 공간 유무 및 대중교통 접근 경로 확인</li>
-      <li>추가 요청 사항이 있다면 예약 시점에 미리 전달</li>
-    </ul>
-  </section>
+ <section>
+ <h2>예약 전 체크리스트</h2>
+ <ul>
+ <li>희망 방문 날짜와 시간대가 매장 운영 시간과 맞는지 확인</li>
+ <li>동반 인원 수를 정확히 전달했는지 확인</li>
+ <li>결제 수단(카드·현금) 가능 여부 사전 확인</li>
+ <li>주차 공간 유무 및 대중교통 접근 경로 확인</li>
+ <li>추가 요청 사항이 있다면 예약 시점에 미리 전달</li>
+ </ul>
+ </section>
 
-  <div class="highlight-box">
-    <p>같은 지역이라도 매장별로 운영 방식과 구성이 다르므로, 하나의 기준으로 일반화하기보다는 방문 전 개별 문의를 통해 확인하는 것이 가장 정확합니다.</p>
-  </div>
+ <div class="highlight-box">
+ <p>같은 지역이라도 매장별로 운영 방식과 구성이 다르므로, 하나의 기준으로 일반화하기보다는 방문 전 개별 문의를 통해 확인하는 것이 가장 정확합니다.</p>
+ </div>
 
-  <section>
-    <h2>용어 정리</h2>
-    <p><strong>웨이팅</strong> — 예약 없이 방문했을 때 자리가 날 때까지 대기하는 상태를 말합니다.</p>
-    <p><strong>세팅</strong> — 룸 배정과 기본 구성이 완료되어 이용을 시작할 수 있는 상태를 의미합니다.</p>
-    <p><strong>연장</strong> — 기본 이용 시간을 넘겨 추가로 시간을 늘리는 것을 말합니다.</p>
-  </section>
+ <section>
+ <h2>용어 정리</h2>
+ <p><strong>웨이팅</strong> — 예약 없이 방문했을 때 자리가 날 때까지 대기하는 상태를 말합니다.</p>
+ <p><strong>세팅</strong> — 룸 배정과 기본 구성이 완료되어 이용을 시작할 수 있는 상태를 의미합니다.</p>
+ <p><strong>연장</strong> — 기본 이용 시간을 넘겨 추가로 시간을 늘리는 것을 말합니다.</p>
+ </section>
 
-  <section>
-    <h2>이용 시 유의할 점</h2>
-    <p>연락 없이 예약 시간을 크게 넘겨 방문하면 배정에 차질이 생길 수 있습니다. 일정 변경이 필요한 경우 가능한 한 빨리 매장에 알리는 것이 서로에게 도움이 됩니다. 매장마다 세부 정책이 다르므로 궁금한 사항은 방문 전 확인하는 것이 좋습니다.</p>
-  </section>
+ <section>
+ <h2>이용 시 유의할 점</h2>
+ <p>연락 없이 예약 시간을 크게 넘겨 방문하면 배정에 차질이 생길 수 있습니다. 일정 변경이 필요한 경우 가능한 한 빨리 매장에 알리는 것이 서로에게 도움이 됩니다. 매장마다 세부 정책이 다르므로 궁금한 사항은 방문 전 확인하는 것이 좋습니다.</p>
+ </section>
 
-  <section>
-    <h2>자주 하는 실수</h2>
-    <ul>
-      <li>인원 변경을 당일에야 알려 배정이 꼬이는 경우</li>
-      <li>운영 시작 시간을 확인하지 않고 너무 이른 시간에 방문하는 경우</li>
-      <li>결제 수단을 미리 확인하지 않아 현장에서 당황하는 경우</li>
-      <li>대중교통 막차 시간을 고려하지 않고 일정을 잡는 경우</li>
-    </ul>
-  </section>
+ <section>
+ <h2>자주 하는 실수</h2>
+ <ul>
+ <li>인원 변경을 당일에야 알려 배정이 꼬이는 경우</li>
+ <li>운영 시작 시간을 확인하지 않고 너무 이른 시간에 방문하는 경우</li>
+ <li>결제 수단을 미리 확인하지 않아 현장에서 당황하는 경우</li>
+ <li>대중교통 막차 시간을 고려하지 않고 일정을 잡는 경우</li>
+ </ul>
+ </section>
 
-  <section>
-    <h2>자주 묻는 질문</h2>
-    <div class="highlight-box">
-      <p><strong>Q. 예약 시간보다 늦게 도착하면 어떻게 되나요?</strong></p>
-      <p>A. 대기 순서가 밀리거나 배정이 조정될 수 있으므로, 늦어질 것 같다면 미리 연락을 남겨두는 것이 좋습니다.</p>
-    </div>
-    <div class="highlight-box">
-      <p><strong>Q. 초행길인데 위치를 찾기 어려우면 어떻게 하나요?</strong></p>
-      <p>A. 예약 시 안내받은 연락처로 문의하면 상세한 위치 안내를 받을 수 있습니다.</p>
-    </div>
-  </section>
+ <section>
+ <h2>자주 묻는 질문</h2>
+ <div class="highlight-box">
+ <p><strong>Q. 예약 시간보다 늦게 도착하면 어떻게 되나요?</strong></p>
+ <p>A. 대기 순서가 밀리거나 배정이 조정될 수 있으므로, 늦어질 것 같다면 미리 연락을 남겨두는 것이 좋습니다.</p>
+ </div>
+ <div class="highlight-box">
+ <p><strong>Q. 초행길인데 위치를 찾기 어려우면 어떻게 하나요?</strong></p>
+ <p>A. 예약 시 안내받은 연락처로 문의하면 상세한 위치 안내를 받을 수 있습니다.</p>
+ </div>
+ </section>
 
-  <p class="author-note">본 콘텐츠는 마포 지역 정보 제공을 목적으로 작성되었으며, 특정 매장에 대한 평가나 추천을 담고 있지 않습니다.</p>
+ <p class="author-note">본 콘텐츠는 마포 지역 정보 제공을 목적으로 작성되었으며, 특정 매장에 대한 평가나 추천을 담고 있지 않습니다.</p>
 
-  <div class="cta-section">
-    <p>매장별 세부 사항은 개별 문의를 통해 확인하시기 바랍니다.</p>
-  </div>
+ <div class="cta-section">
+ <p>매장별 세부 사항은 개별 문의를 통해 확인하시기 바랍니다.</p>
+ </div>
 </article>
 </main>
 
